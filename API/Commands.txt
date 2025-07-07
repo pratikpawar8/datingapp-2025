@@ -1,0 +1,13 @@
+1. To install dotnet migration
+
+dotnet tool install -g dotnet-ef
+
+2. To create new migration
+
+dotnet ef  migrations add IntitialCreate -o Data/Migrations 
+
+(note -o Data/Migrations is just for folder location)
+
+3. To create table inside database from class 
+
+dotnet ef database update
